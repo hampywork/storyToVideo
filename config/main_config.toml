@@ -1,0 +1,25 @@
+[audio]
+output_format = "wav"
+sample_rate = 44100
+
+[video]
+background_folder = "data/background_videos"
+fps = 30
+target_width = 1080
+target_height = 1920
+
+[output]
+folder = "output"
+format = "mp4"
+
+[captions]
+font_size = 24
+font_color = "white"
+
+[ai]
+groq_model = "mixtral-8x7b-32768"
+
+[tts]
+model_name = "tts_models/en/ljspeech/tacotron2-DDC"
+model_name_2 = "tts_models/multilingual/multi-dataset/xtts_v2"
+use_gpu = false

@@ -1,0 +1,19 @@
+# Whisper model configuration
+whisper_model = "small"
+translate_to_english = false
+
+# Subtitle splitting and formatting
+split_by_gap = 0.7
+max_words = 4
+max_chars = 40
+refine_subtitles = false
+
+# Post-processing options
+adjust_timestamps = false
+time_delta = 0.0
+format_text = "normal"  # Options: "normal", "lowercase", "uppercase"
+remove_punctuation = true
+
+# Censoring options
+censor_words = false
+censor_list = []
